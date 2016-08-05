@@ -1,0 +1,308 @@
+/*------------------------
+FONTS!
+------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900italic,900);
+
+/*------------------------
+GENERAL STYLES
+------------------------*/
+
+body {
+  font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
+}
+
+.fade, .fade2, .fade3 {
+  opacity: 0;
+}
+
+/*------------------------
+NAVBAR
+------------------------*/
+
+.navbar {
+  margin: 0;
+}
+
+.navbar-fixed-top {
+  background-color: #295A89;
+  border: 0;
+  position: relative;
+}
+
+.navbar-default {
+  padding: 20px;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 6px;
+}
+
+.navbar-default .navbar-brand span {
+  color: #B2D0EC;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #B2D0EC;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #FFF;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.navbar-nav {
+  margin: 7.5px 0;
+}
+
+.navbar-default .navbar-nav > li > a.btn-donate {
+  background-color: #295A89;
+  color: #FFF;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a.btn-donate:hover, .navbar-default .navbar-nav > li > a.btn-donate:focus {
+  color: #295A89;
+  background-color: #FFF;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+/*------------------------
+HEADLINE SECTION
+------------------------*/
+
+.headline {
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.headline h1 {
+  font-size: 32px;
+}
+
+.headline h1 span {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #295A89;
+  font-size: 36px;
+}
+
+.headline p {
+  color: #295A89;
+}
+
+/*------------------------
+INVERSE SECTION
+------------------------*/
+
+.inverse {
+  background-color: #295A89;
+  color: #B2D0EC;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.inverse p {
+  line-height: 22px;
+}
+
+.inverse h2, .inverse h3 {
+  color: #FFF;
+}
+
+.inverse h2 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.inverse h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+a.btn-donate {
+  background-color: #295A89;
+  color: #FFF;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.inverse a.btn-donate {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+a.btn-donate:hover, a.btn-donate:focus {
+  color: #295A89;
+  background-color: #FFF;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+/*------------------------
+SUPPLEMENTAL SECTION
+------------------------*/
+
+.supplemental {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.supplemental p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #333;
+}
+
+/*------------------------
+FOOTER
+------------------------*/
+
+footer {
+  background-color: #295A89;
+  color: #B2D0EC;
+  padding: 25px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/*---------------------------------------
+'CUS THE MEDIA QUERY ALWAYS GETS ITS WAY!
+---------------------------------------*/
+
+@media (min-width: 768px) {
+
+  body {
+    min-height: 1000px;
+    padding-top: 102px;
+  }
+
+  .navbar {
+    -webkit-box-shadow: 0 2px 2px 2px rgba(0,0,0,.2);
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,.2);
+  }
+
+  .navbar-fixed-top {
+    position: fixed;
+  }
+
+  a.btn-donate {
+    width: auto;
+  }
+
+  .full-width {
+    margin-right: 0;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .navbar-default .navbar-brand span {
+    font-size: 14px;
+  }
+
+  .headline {
+    margin-left: auto;
+    padding-top: 5%;
+    padding-left: 3%;
+  }
+
+  .headline p {
+    font-size: 24px;
+    padding-top: 50px;
+  }
+
+  .headline h1 span {
+    font-size: 68px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+
+  .inverse {
+    background-color: #295A89;
+    color: #B2D0EC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .inverse p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .supplemental {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .supplemental p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .supplemental p, .inverse p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .inverse h2 {
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 28px;
+  }
+
+}
