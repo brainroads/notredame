@@ -251,23 +251,6 @@ footer a:hover, footer a:focus {
     font-size: 14px;
   }
 
-  .headline {
-    margin-left: auto;
-    padding-top: 5%;
-    padding-left: 3%;
-  }
-
-  .headline p {
-    font-size: 24px;
-    padding-top: 50px;
-  }
-
-  .headline h1 span {
-    font-size: 68px;
-    line-height: 64px;
-    letter-spacing: -2px;
-  }
-
   .inverse {
     background-color: #295A89;
     color: #B2D0EC;
@@ -288,6 +271,50 @@ footer a:hover, footer a:focus {
   .supplemental p {
     font-size: 14px;
     line-height: 22px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .headline {
+    margin-left: auto;
+    padding-top: 3%;
+  }
+
+  .headline h1 {
+    font-size: 28px;
+  }
+
+  .headline h1 span {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2px;
+  }
+
+  .headline p {
+    font-size: 20px;
+    padding-top: 9px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .headline {
+    padding-top: 5%;
+    padding-left: 3%;
+  }
+
+  .headline p {
+    font-size: 24px;
+    padding-top: 50px;
+  }
+
+  .headline h1 span {
+    font-size: 68px;
+    line-height: 64px;
+    letter-spacing: -2px;
   }
 
 }
