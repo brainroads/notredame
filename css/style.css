@@ -258,6 +258,10 @@ footer a:hover, footer a:focus {
     padding-bottom: 60px;
   }
 
+  .inverse h2 {
+    margin-top: 0;
+  }
+
   .inverse p {
     font-size: 16px;
     line-height: 24px;
@@ -302,13 +306,14 @@ footer a:hover, footer a:focus {
 @media (min-width: 992px) {
 
   .headline {
+    margin-left: auto;
     padding-top: 5%;
     padding-left: 3%;
   }
 
   .headline p {
     font-size: 24px;
-    padding-top: 50px;
+    padding-top: 24px;
   }
 
   .headline h1 span {
