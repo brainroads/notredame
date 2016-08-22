@@ -77,12 +77,13 @@ NAVBAR
 }
 
 .navbar-default .navbar-nav > li > a.btn-donate {
-  background-color: #295A89;
-  color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #FFF600;
+  color: #295A89;
+  border: 1px solid #FFF600;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a.btn-donate:hover, .navbar-default .navbar-nav > li > a.btn-donate:focus {
@@ -151,12 +152,13 @@ INVERSE SECTION
 }
 
 a.btn-donate {
-  background-color: #295A89;
-  color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #FFF600;
+  color: #295A89;
+  border: 1px solid #FFF600;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
+  font-weight: bold;
 }
 
 .inverse a.btn-donate {
